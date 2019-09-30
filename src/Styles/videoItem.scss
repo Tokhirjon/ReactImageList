@@ -1,0 +1,19 @@
+.video-item{
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    &:hover{
+      box-shadow: 0 10px 20px rgba(0,0,0, 0.25);
+      
+    }
+}
+.video-item.item img{
+    max-width: 180px;
+ 
+}
+.loadingVideo{
+    font-size: 18px;
+    font-family: 'Hepta Slab', serif;
+    font-weight: 650;
+}

@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Eater|Monda&display=swap");
+form {
+  padding: 30px 10px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#33ccff), to(#ff99cc));
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+
+input {
+  border: 10px solid red;
+}
+
+.label1 {
+  font-family: 'Eater', cursive;
+  font-size: 30px;
+}
+/*# sourceMappingURL=main.css.map */

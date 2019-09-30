@@ -1,0 +1,29 @@
+.container{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.formContainer{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    padding: 30px 10px;
+    border-radius: 10px;
+
+}
+a{
+    color: black;
+    font-family: 'Eater', cursive;
+}
+button{
+    padding-bottom: 10px;
+}
+.inputContainer input{
+   align-items: center;
+   justify-content: space-around;
+   width: 100%;
+   padding: 10px;
+   border:none;
+   border-radius: 10px;
+  
+   &:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.25);
+   }
+}
